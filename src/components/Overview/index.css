@@ -1,0 +1,99 @@
+.overview-main-container{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    
+    
+}
+
+@media screen and (min-width:760px) {
+    .overview-main-container{
+        width: 60%;
+    }
+}
+.heading {
+    margin: 0;
+    color: black;
+    font-weight: bold;
+}
+
+.overview-heading-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0;
+}
+
+.overview-select-container{
+    background-color: rgb(197, 197, 207);
+    padding: 5px;
+    outline: none;
+    border: none;
+    color: rgb(57, 53, 53);
+    border-radius: 5px;
+}
+.overview-bar-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    overflow: hidden;
+
+    overflow-x: auto;
+    
+}
+
+.overview-bars-rows{
+    margin: 3px;
+    width: 60%;
+    text-align: center;
+}
+
+
+.overview-bars{
+    height: 150px;
+    background-color: #dfdff3;
+    width: 90%;
+    border-radius: 5px;
+}
+.bar1{
+    height: 100px;
+}
+.bar2{
+    height: 80px;
+}
+.bar3{
+    height: 150px;
+}
+.bar4{
+    height: 110px;
+}
+.bar5{
+    height: 130px;
+}
+.bar6{
+    height: 60px;
+}
+.bar7{
+    height: 130px;
+}
+.bar8{
+    height: 150px;
+    background-color: #6f6fea;
+}
+.bar9{
+    height: 140px;
+}
+
+.bar10{
+    height: 120px;
+}
+.bar11{
+    height: 110px;
+}
+.bar12{
+    height: 125px;
+}

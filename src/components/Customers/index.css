@@ -1,0 +1,22 @@
+
+.chart-main-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 769px) {
+    .chart-main-container{
+        width: 35%;
+    }
+}
+
+.cell1{
+    list-style-type: none;
+}
+
+
